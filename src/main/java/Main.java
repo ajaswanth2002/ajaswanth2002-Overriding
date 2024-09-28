@@ -10,8 +10,6 @@
 public class Main {
     public static void main(String[] args) {
         Shiba shiba = new Shiba();
-
-
         System.out.println("Expected output: Anything other than 'Woof' (because the 'sound' method is supposed to be overridden)");
         System.out.println("Actual Output: " + shiba.sound());
 
